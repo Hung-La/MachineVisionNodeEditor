@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Navigation;
 using MachineVisionNodeEditor.Models.NodeModels.ImageImport_NodeModels;
 using MachineVisionNodeEditor.Views.Nodes;
+using MachineVisionNodeEditor.Commands;
 
 namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
 {
@@ -33,8 +34,8 @@ namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
             get => _pendingConnection;
             set { _pendingConnection = value; OnPropertyChanged(); }
         }
-        public ObservableCollection<Node_NodeViewModel> Nodes { get; set; } = new ObservableCollection<Node_NodeViewModel>();
-        public ObservableCollection<ImageImport_NodeViewModel> ImageImportNodes { get; set; } = new ObservableCollection<ImageImport_NodeViewModel>();
+        public ObservableCollection<NodeControl_NodeViewModel> Nodes { get; set; } = new ();
+        //public ObservableCollection<ImageImport_NodeViewModel> ImageImportNodes { get; set; } = new ObservableCollection<ImageImport_NodeViewModel>();
 
         public ObservableCollection<Node_ConnectionViewModel> Connections { get; set; } = new();
         #endregion
@@ -58,14 +59,15 @@ namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
                 else { AppTheme.ChangeTheme(new Uri("Resources/Themes/LightTheme.xaml", UriKind.Relative)); }
             });
 
-            var node1 = new NodeModel("Node 1", 80, 120);
-            var node2 = new NodeModel("Node 2", 380, 200);
-            var node3 = new NodeModel("Node 3", 680, 120);
+            #region Test
+            //var node1 = new NodeModel("Node 1", 80, 120);
+            //var node2 = new NodeModel("Node 2", 380, 200);
+            //var node3 = new NodeModel("Node 3", 680, 120);
 
-            Nodes.Add(new Node_NodeViewModel(node1));
-            Nodes.Add(new Node_NodeViewModel(node2));
-            Nodes.Add(new Node_NodeViewModel(node3));
-
+            //Nodes.Add(new Node_NodeViewModel(node1));
+            //Nodes.Add(new Node_NodeViewModel(node2));
+            //Nodes.Add(new Node_NodeViewModel(node3));
+            #endregion 
 
             // ===== Bắt đầu kéo từ port =====
             //PortMouseDownCommand = new RelayCommand<PortModel>(

@@ -2,6 +2,8 @@
 using MachineVisionNodeEditor.Interfaces.NodeInterfaces;
 using MachineVisionNodeEditor.Models.NodeModels;
 using MachineVisionNodeEditor.ViewModels.NodeViewModels;
+using MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeViewModels;
+using MachineVisionNodeEditor.Views.Nodes.ImageImport;
 using MachineVisionNodeEditor.Views.Windows;
 using System;
 using System.Collections.Generic;
@@ -17,7 +19,7 @@ namespace MachineVisionNodeEditor.Views.Nodes
     public class NodeControl : UserControl
     {
         public static PortModel? DraggingPort { get; set; }
-        public Node_NodeViewModel? Node_NodeViewModel { get; set; }
+        public NodeControl_NodeViewModel? NodeControl_NodeViewModel { get; set; }
 
         protected bool _dragging;
         protected Point _dragOrigin;
@@ -25,9 +27,39 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
         public NodeControl()
         {
-            // Không gọi InitializeComponent()
 
-            //Node_NodeViewModel = this.DataContext as Node_NodeViewModel;
+        }
+
+        protected void NodeControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (this.DataContext is NodeControl_NodeViewModel viewModel)
+            {
+                NodeControl_NodeViewModel = viewModel;
+                if (viewModel is Node_NodeViewModel nodeViewModel)
+                {
+                    var nodeView = UIHelper.FindView<Node_NodeView>(viewModel);
+                    nodeViewModel.NodeModel.InputPorts.Add(new PortModel() { Type = PortType.Input, Owner = nodeViewModel.NodeModel });
+                    if (nodeView != null && nodeView.DataContext == viewModel)
+                    {
+                        nodeView.InputPort.DataContext = viewModel.NodeModel.InputPorts[0];
+                    }
+
+                    nodeViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = nodeViewModel.NodeModel });
+                    if (nodeView != null && nodeView.DataContext == viewModel)
+                    {
+                        nodeView.OutputPort.DataContext = viewModel.NodeModel.OutputPorts[0];
+                    }
+                }
+                else if (viewModel is ImageImport_NodeViewModel imageImportViewModel)
+                {
+                    var nodeView = UIHelper.FindView<ImageImport_NodeView>(viewModel);
+                    imageImportViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = imageImportViewModel.NodeModel });
+                    if (nodeView != null && nodeView.DataContext == viewModel)
+                    {
+                        nodeView.OutputPort.DataContext = viewModel.NodeModel.OutputPorts[0];
+                    }
+                }
+            }
         }
 
         public static void ClearDraggingPort() => DraggingPort = null;

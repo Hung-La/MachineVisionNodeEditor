@@ -30,7 +30,10 @@
             <ResourceDictionary.MergedDictionaries>
                 <!--<ResourceDictionary Source="/Resources/MainResource.xaml"></ResourceDictionary>-->
                 <ResourceDictionary Source="/Resources/Styles/WindowStyle.xaml"></ResourceDictionary>
+                
+                <ResourceDictionary Source="/Resources/DataTemplates/WindowDataTemplate.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
+
         </ResourceDictionary>
     </Window.Resources>
 
@@ -206,7 +209,7 @@
                         Header="Image Operation">
                         <RibbonButton
                             x:Name="RibbonButton_ImageImport"
-                            Label="Image Input"
+                            Label="Image Import"
                             LargeImageSource="{StaticResource IconImread}"
                             Click="RibbonButton_ImageImport_Click">
                         </RibbonButton>
@@ -424,19 +427,19 @@
                         </Style>
                     </ItemsControl.ItemContainerStyle>
 
-                    <ItemsControl.ItemTemplate>
+                    <!--<ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Node:Node_NodeView>
-                                <!--<Node:Node_NodeView.DataContext>
+                            <Node:NodeControl>
+                                <Node:NodeControl.DataContext>
                                     <NodeViewModel:Node_NodeViewModel></NodeViewModel:Node_NodeViewModel>
-                                </Node:Node_NodeView.DataContext>-->
-                            </Node:Node_NodeView>
+                                </Node:NodeControl.DataContext>
+                            </Node:NodeControl>
                         </DataTemplate>
-                    </ItemsControl.ItemTemplate>
+                    </ItemsControl.ItemTemplate>-->
 
                 </ItemsControl>
 
-                <ItemsControl 
+                <!--<ItemsControl 
                     x:Name="NodesControl_ImageImport"
                     ItemsSource="{Binding ImageImportNodes}">
                     <ItemsControl.ItemsPanel>
@@ -458,7 +461,7 @@
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
 
-                </ItemsControl>
+                </ItemsControl>-->
 
                 <!--── Preview khi đang kéo dây ──────────────────────-->
                 <Path x:Name="PreviewPath"

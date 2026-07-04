@@ -118,21 +118,21 @@ namespace MachineVisionNodeEditor.Extension
 
             }
 
-            foreach (var item in MainWindow.Instance.NodesControl_ImageImport.Items)
-            {
-                var container = MainWindow.Instance.NodesControl_ImageImport.ItemContainerGenerator.ContainerFromItem(item) as FrameworkElement;
+            //foreach (var item in MainWindow.Instance.NodesControl_ImageImport.Items)
+            //{
+            //    var container = MainWindow.Instance.NodesControl_ImageImport.ItemContainerGenerator.ContainerFromItem(item) as FrameworkElement;
 
-                if (container == null) continue;
+            //    if (container == null) continue;
 
-                var nodeView = FindVisualParent<ImageImport_NodeView>(portView);
-                if (nodeView != null)
-                {
-                    if (nodeView?.DataContext is ImageImport_NodeView nodeViewModel && nodeViewModel == container.DataContext)
-                    {
-                        return (T)container;
-                    }
-                }
-            }
+            //    var nodeView = FindVisualParent<ImageImport_NodeView>(portView);
+            //    if (nodeView != null)
+            //    {
+            //        if (nodeView?.DataContext is ImageImport_NodeView nodeViewModel && nodeViewModel == container.DataContext)
+            //        {
+            //            return (T)container;
+            //        }
+            //    }
+            //}
 
             return null;
         }

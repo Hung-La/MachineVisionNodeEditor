@@ -29,17 +29,17 @@ namespace MachineVisionNodeEditor.Views.Nodes.ImageImport
         public ImageImport_NodeView()
         {
             InitializeComponent();
-            
         }
 
         private void ImageImport_NodeView_Loaded(object sender, RoutedEventArgs e)
         {
-            if (DataContext is Node_NodeViewModel vm)
+            if (DataContext is NodeControl_NodeViewModel vm)    
             {
                 ImageImport_NodeViewModel = (ImageImport_NodeViewModel)vm;
                 ImageImport_NodeViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = ImageImport_NodeViewModel.NodeModel });
                 OutputPort.DataContext = ImageImport_NodeViewModel.NodeModel.OutputPorts[0];
             }
         }
+
     }
 }

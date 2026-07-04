@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace MachineVisionNodeEditor.ViewModels.NodeViewModels
 {
-    public class Node_NodeViewModel : BaseViewModel, INodeViewModel
+    public class Node_NodeViewModel : NodeControl_NodeViewModel
     {
-        private NodeModel _nodeModel;
+        //private NodeModel _nodeModel;
 
-        public NodeModel NodeModel { get => _nodeModel; set { _nodeModel = value; OnPropertyChanged(); } }
+        //public NodeModel NodeModel { get => _nodeModel; set { _nodeModel = value; OnPropertyChanged(); } }
 
         public Node_NodeViewModel(NodeModel nodeModel)
         {

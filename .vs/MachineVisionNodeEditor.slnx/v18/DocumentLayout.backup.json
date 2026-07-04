@@ -3,60 +3,119 @@
   "WorkspaceRootPath": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\nodecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\nodecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\nodecontrol_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\nodecontrol_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_portview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_portview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\imageimport_nodemodels\\imageimport_nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\imageimport_nodemodels\\imageimport_nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\imageimport_nodeviewmodels\\imageimport_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\imageimport_nodeviewmodels\\imageimport_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\usercontrolviewmodels\\usercontrol_controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\usercontrolviewmodels\\usercontrol_controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_portviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_portviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_portview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_portview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\resources\\datatemplates\\windowdatatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\resources\\datatemplates\\windowdatatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\windowviewmodels\\window_mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\windowviewmodels\\window_mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\usercontrolviewmodels\\usercontrol_controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\usercontrolviewmodels\\usercontrol_controlbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\imageimport\\imageimport_nodeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\imageimport_nodeviewmodels\\imageimport_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\imageimport_nodeviewmodels\\imageimport_nodeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\resources\\styles\\windowstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\resources\\styles\\windowstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\resources\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\resources\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\extension\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\extension\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\usercontrols\\usercontrol_controlbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\usercontrols\\usercontrol_controlbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Manh Hung\\AppData\\Local\\Temp\\.vsdbgsrc\\fc80e245889d47772e3f73b266dbaaffba38b913bc603de5ca85ee06643572e7\\DefaultBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\imageimport_nodemodels\\imageimport_nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\imageimport_nodemodels\\imageimport_nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_portviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_portviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\portmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\portmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\nodeviewmodels\\node_connectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\resources\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -67,32 +126,8 @@
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\resources\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\resources\\styles\\windowstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\resources\\styles\\windowstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\nodes\\node_portview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\nodes\\node_portview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\views\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\viewmodels\\windowviewmodels\\window_mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\viewmodels\\windowviewmodels\\window_mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\connectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\connectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\models\\nodemodels\\portmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\models\\nodemodels\\portmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|d:\\dropbox\\wpf library\\node editor\\machine vision node editor\\machinevisionnodeeditor\\machinevisionnodeeditor\\extension\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB0514-1147-47C4-ECB6-D433E91E71A5}|MachineVisionNodeEditor\\MachineVisionNodeEditor.csproj|solutionrelative:machinevisionnodeeditor\\extension\\uihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,58 +155,365 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NodeControl.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\NodeControl.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\NodeControl.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\NodeControl.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\NodeControl.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAD4vzQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:17:35.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageImport_NodeView.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T12:48:50.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImageImport_NodeViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:47:30.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Node_NodeViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:57:23.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserControl_ControlBar.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T14:38:47.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T13:14:59.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserControl_ControlBarViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIAzwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T14:22:59.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Window_MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:49:04.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Node_NodeView.xaml.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:54:02.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node_PortView.xaml.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAADgv3wAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:49:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImageImport_NodeView.xaml.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:48:56.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Node_PortView.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T12:49:17.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Node_NodeView.xaml",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml",
               "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml",
               "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T12:52:50.404Z"
+              "WhenOpened": "2026-05-21T12:52:50.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Node_ConnectionViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "NodeControl_NodeViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\NodeControl_NodeViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\NodeControl_NodeViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\NodeControl_NodeViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\NodeControl_NodeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:40:53.476Z"
+              "WhenOpened": "2026-07-04T06:30:00.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowDataTemplate.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\DataTemplates\\WindowDataTemplate.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\DataTemplates\\WindowDataTemplate.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\DataTemplates\\WindowDataTemplate.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\DataTemplates\\WindowDataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-04T10:06:37.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Node_PortView.xaml.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwFEAAAAPAAAAAAAAAA==",
+              "Title": "UIHelper.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Extension\\UIHelper.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Extension\\UIHelper.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Extension\\UIHelper.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Extension\\UIHelper.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAtwGcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:49:18.741Z"
+              "WhenOpened": "2026-05-21T12:55:55.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Node_NodeViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_NodeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:57:23.756Z"
+              "WhenOpened": "2026-07-04T06:20:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAtwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:13:28.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NodeModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwEAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:41:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WindowStyle.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T17:04:00.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainResource.xaml",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\MainResource.xaml",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\MainResource.xaml",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\MainResource.xaml",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\MainResource.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-04T10:02:15.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Node_PortViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T11:29:29.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "Node_NodeView.g.i.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Node_NodeView.g.i.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T07:22:25.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DefaultBinder.cs",
+              "DocumentMoniker": "C:\\Users\\Manh Hung\\AppData\\Local\\Temp\\.vsdbgsrc\\fc80e245889d47772e3f73b266dbaaffba38b913bc603de5ca85ee06643572e7\\DefaultBinder.cs",
+              "ToolTip": "C:\\Users\\Manh Hung\\AppData\\Local\\Temp\\.vsdbgsrc\\fc80e245889d47772e3f73b266dbaaffba38b913bc603de5ca85ee06643572e7\\DefaultBinder.cs [Read Only]",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAWwFoAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T08:11:51.606Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ImageImport_NodeModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T16:43:58.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:20:23.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PortModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:59:20.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImageImport_NodeView.g.i.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.i.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAD4v3sAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T06:47:50.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "ConnectionModel.cs",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\ConnectionModel.cs",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\ConnectionModel.cs",
@@ -183,217 +525,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserControl_ControlBarViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\UserControlViewModels\\UserControl_ControlBarViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "Node_ConnectionViewModel.cs",
+              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
+              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
+              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
+              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_ConnectionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T14:22:59.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Node_PortView.xaml",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_PortView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T12:49:17.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ImageImport_NodeView.xaml.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:48:56.493Z",
+              "WhenOpened": "2026-05-21T12:40:53.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageImport_NodeView.xaml",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T12:48:50.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Node_PortViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\Node_PortViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T11:29:29.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NodeModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\NodeModel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:41:32.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImageImport_NodeViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\NodeViewModels\\ImageImport_NodeViewModels\\ImageImport_NodeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:47:30.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ImageImport_NodeModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\ImageImport_NodeModels\\ImageImport_NodeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T16:43:58.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Node_NodeView.xaml.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Nodes\\Node_NodeView.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:54:02.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserControl_ControlBar.xaml",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\UserControls\\UserControl_ControlBar.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T14:38:47.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T13:14:59.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WindowStyle.xaml",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\Styles\\WindowStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T17:04:00.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "DarkTheme.xaml",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Themes\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\Themes\\DarkTheme.xaml",
               "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Themes\\DarkTheme.xaml",
               "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\Themes\\DarkTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T17:04:05.299Z"
+              "WhenOpened": "2026-05-22T17:04:05.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "LightTheme.xaml",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Themes\\LightTheme.xaml",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Resources\\Themes\\LightTheme.xaml",
               "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Resources\\Themes\\LightTheme.xaml",
               "RelativeToolTip": "MachineVisionNodeEditor\\Resources\\Themes\\LightTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-22T17:04:21.215Z"
+              "WhenOpened": "2026-05-22T17:04:21.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Views\\Windows\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAD4v1AAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:13:28.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Window_MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\ViewModels\\WindowViewModels\\Window_MainWindowViewModel.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAMwIYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:49:04.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UIHelper.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Extension\\UIHelper.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Extension\\UIHelper.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Extension\\UIHelper.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Extension\\UIHelper.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAYwIQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:55:55.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PortModel.cs",
-              "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
-              "RelativeDocumentMoniker": "MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
-              "ToolTip": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
-              "RelativeToolTip": "MachineVisionNodeEditor\\Models\\NodeModels\\PortModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:59:20.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "MainWindow.g.cs",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Windows\\MainWindow.g.cs",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Windows\\MainWindow.g.cs",
@@ -405,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "Node_NodeView.g.i.cs",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Test\\Node_NodeView.g.i.cs",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\Test\\Node_NodeView.g.i.cs",
@@ -417,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "ImageImport_NodeView.g.cs",
               "DocumentMoniker": "D:\\Dropbox\\WPF Library\\Node Editor\\Machine Vision Node Editor\\MachineVisionNodeEditor\\MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.cs",
               "RelativeDocumentMoniker": "MachineVisionNodeEditor\\obj\\Debug\\net9.0-windows\\Views\\Nodes\\ImageImport\\ImageImport_NodeView.g.cs",
@@ -429,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "ItemCollection.cs",
               "DocumentMoniker": "C:\\Users\\Manh Hung\\AppData\\Local\\Temp\\.vsdbgsrc\\97307bad24c27ed44d251d794ece4c41d2df645c2d1ff7a4fecfea8ed094e8bd\\ItemCollection.cs",
               "ToolTip": "C:\\Users\\Manh Hung\\AppData\\Local\\Temp\\.vsdbgsrc\\97307bad24c27ed44d251d794ece4c41d2df645c2d1ff7a4fecfea8ed094e8bd\\ItemCollection.cs",
@@ -439,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "Microsoft.WinFX.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.202\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.202\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",

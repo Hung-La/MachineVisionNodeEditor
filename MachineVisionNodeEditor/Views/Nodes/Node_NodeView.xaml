@@ -9,7 +9,7 @@
              mc:Ignorable="d" 
              d:DataContext="{d:DesignInstance Type=ViewModel:Node_NodeViewModel}"
              d:DesignHeight="150" d:DesignWidth="160"
-             Loaded="UserControl_Loaded">
+             Loaded="NodeControl_Loaded">
 
     <local:NodeControl.Resources>
         <!--<ResourceDictionary>

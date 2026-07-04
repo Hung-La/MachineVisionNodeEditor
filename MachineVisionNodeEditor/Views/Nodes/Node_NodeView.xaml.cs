@@ -33,6 +33,10 @@ namespace MachineVisionNodeEditor.Views.Nodes
         private Point _dragOrigin;
         private Canvas? _canvas;
 
+        //public Node_NodeView()
+        //{
+        //    InitializeComponent();
+        //}
         public Node_NodeView()
         {
             InitializeComponent();
@@ -40,7 +44,6 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-
             if (DataContext is Node_NodeViewModel vm)
             {
                 Node_NodeViewModel = vm;

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeViewModels
 {
-    public class ImageImport_NodeViewModel : Node_NodeViewModel
+    public class ImageImport_NodeViewModel : NodeControl_NodeViewModel
     {
         //private ImageImport_NodeModel _imageImport_NodeModel;
 

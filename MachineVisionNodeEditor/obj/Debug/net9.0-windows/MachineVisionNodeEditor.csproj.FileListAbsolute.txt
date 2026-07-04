@@ -136,3 +136,5 @@ D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeE
 D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeEditor\MachineVisionNodeEditor\bin\Debug\net9.0-windows\System.Private.Windows.Core.dll
 D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeEditor\MachineVisionNodeEditor\bin\Debug\net9.0-windows\System.Private.Windows.GdiPlus.dll
 D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeEditor\MachineVisionNodeEditor\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeEditor\MachineVisionNodeEditor\obj\Debug\net9.0-windows\MachineVisionNodeEditor.sourcelink.json
+D:\Dropbox\WPF Library\Node Editor\Machine Vision Node Editor\MachineVisionNodeEditor\MachineVisionNodeEditor\obj\Debug\net9.0-windows\Resources\DataTemplates\WindowDataTemplate.baml
