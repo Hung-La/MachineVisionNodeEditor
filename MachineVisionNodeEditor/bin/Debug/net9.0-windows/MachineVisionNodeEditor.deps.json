@@ -1,0 +1,175 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MachineVisionNodeEditor/1.0.0": {
+        "dependencies": {
+          "MaterialDesignColors": "5.3.1",
+          "MaterialDesignThemes": "5.3.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.142",
+          "OpenCvSharp4.Extensions": "4.13.0.20260602",
+          "HungLaToggleButtonLib": "1.0.0.0"
+        },
+        "runtime": {
+          "MachineVisionNodeEditor.dll": {}
+        }
+      },
+      "MaterialDesignColors/5.3.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "5.3.1.0",
+            "fileVersion": "5.3.1.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.3.1": {
+        "dependencies": {
+          "MaterialDesignColors": "5.3.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.142"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.3.1.0",
+            "fileVersion": "5.3.1.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/10.0.5": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.142.60144"
+          }
+        }
+      },
+      "OpenCvSharp4/4.13.0.20260602": {
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.Extensions/4.13.0.20260602": {
+        "dependencies": {
+          "OpenCvSharp4": "4.13.0.20260602",
+          "System.Drawing.Common": "10.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/10.0.5": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.5"
+        },
+        "runtime": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          },
+          "lib/net9.0/System.Private.Windows.GdiPlus.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
+          }
+        }
+      },
+      "HungLaToggleButtonLib/1.0.0.0": {
+        "runtime": {
+          "HungLaToggleButtonLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MachineVisionNodeEditor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDesignColors/5.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QtVKQnA+3c/tAC2gdBDZcOdGBe/nIsQUVpaea10nmatUwuZRYVoRXMd0VqgwmYHpyxv/5vWy+z6l0HgNgZMs2w==",
+      "path": "materialdesigncolors/5.3.1",
+      "hashPath": "materialdesigncolors.5.3.1.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IjsWlh22m2jRQEMwlg5LIDZLsSEgeROyBQU7yMjqOQATx1ls/dZoLxDcLgwjNMbO2LcGPsHAeY1Q9tjKkN45ig==",
+      "path": "materialdesignthemes/5.3.1",
+      "hashPath": "materialdesignthemes.5.3.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a7rC0Qb5JGiA4f4ooqQjsx17LgYkb9feOcMNGyBXGqYmqC4ZoLbrV98zn7Kr5Z39BIU10Bti80Jwm/QAw+45VA==",
+      "path": "microsoft.win32.systemevents/10.0.5",
+      "hashPath": "microsoft.win32.systemevents.10.0.5.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c47wA/8GHiQ9w+O6+mdqrZhZrxHogx2/fSZyRKL9tz0k+ypoTiwOx6fID0X3jr5LnCazJbCk7KiAcL0zVnNgNA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.142",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512"
+    },
+    "OpenCvSharp4/4.13.0.20260602": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NXQBXXWgeVnmGhRWX5KvhGFIagI9ZGeZgip07GgSbRD5uDNembCyqW+9dPwO/ZOweVUkWihrwJYDo8GG413tEQ==",
+      "path": "opencvsharp4/4.13.0.20260602",
+      "hashPath": "opencvsharp4.4.13.0.20260602.nupkg.sha512"
+    },
+    "OpenCvSharp4.Extensions/4.13.0.20260602": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kE9mMUO0vtpXVy84oghyCVE4s0OpA87omb3qz14VvrZZJ+ANyR9qxKKkEIB2gXVsgUF/lcvkSJ2W7z5VSgSmFg==",
+      "path": "opencvsharp4.extensions/4.13.0.20260602",
+      "hashPath": "opencvsharp4.extensions.4.13.0.20260602.nupkg.sha512"
+    },
+    "System.Drawing.Common/10.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYgPPbii/9Prh7RuY1gaxSyik7Ysw594K0uCHggDxHDgl7mfk8c4UlwluKjQoMquVGLce7Jld4DjjsnuYK3m7g==",
+      "path": "system.drawing.common/10.0.5",
+      "hashPath": "system.drawing.common.10.0.5.nupkg.sha512"
+    },
+    "HungLaToggleButtonLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

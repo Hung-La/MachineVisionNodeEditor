@@ -1,0 +1,103 @@
+﻿<Node:NodeControl x:Class="MachineVisionNodeEditor.Views.Nodes.ImageImport.ImageImport_NodeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MachineVisionNodeEditor.Views.Nodes.ImageImport"
+             xmlns:Node="clr-namespace:MachineVisionNodeEditor.Views.Nodes"
+             xmlns:NodeViewModel="clr-namespace:MachineVisionNodeEditor.ViewModels.NodeViewModels"
+             xmlns:ViewModel="clr-namespace:MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeViewModels"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance Type=ViewModel:ImageImport_NodeViewModel}"
+             d:DesignHeight="150" d:DesignWidth="250"
+             Loaded="ImageImport_NodeView_Loaded">
+
+    <!--<UserControl.DataContext>
+        <ViewModel:ImageImport_NodeViewModel></ViewModel:ImageImport_NodeViewModel>
+    </UserControl.DataContext>-->
+    
+    <Node:NodeControl.Resources>
+        <!-- Style cho port (hình tròn nhỏ) -->
+        <Style x:Key="PortStyle" TargetType="Ellipse">
+            <Setter Property="Width"  Value="14"/>
+            <Setter Property="Height" Value="14"/>
+            <Setter Property="Fill"   Value="#37474F"/>
+            <Setter Property="Stroke" Value="#00BCD4"/>
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="Cursor" Value="Cross"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#00BCD4"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Node:NodeControl.Resources>
+
+    <!-- Shadow effect cho node -->
+    <Node:NodeControl.Effect>
+        <DropShadowEffect Color="Black" BlurRadius="16" ShadowDepth="4" Opacity="0.5"/>
+    </Node:NodeControl.Effect>
+
+    <Grid>
+
+        <!-- Body của node -->
+        <Border Background="{DynamicResource NodeBackground}"
+             BorderBrush="#455A64"
+             BorderThickness="1.5"
+             CornerRadius="8"
+             Padding="0,0,0,12"
+             MouseDown="Header_MouseDown"
+             MouseMove="Header_MouseMove"
+             MouseUp="Header_MouseUp">
+            <StackPanel 
+                 x:Name="StackPanel_Node">
+                <!-- Header -->
+                <Border Background="#00BCD4"
+                     CornerRadius="6,6,0,0"
+                     Padding="10,6"
+                     Cursor="SizeAll">
+                    <TextBlock 
+                         Text="{Binding NodeModel.Title}"
+                         Foreground="White"
+                         FontWeight="SemiBold"
+                         FontSize="13"
+                         FontFamily="Consolas"/>
+                </Border>
+
+                <Grid
+                    x:Name="Grid_Node"
+                    Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Label -->
+                    <TextBlock Grid.Column="1"
+                       Text="● Image Import ●"
+                       Foreground="#546E7A"
+                       FontSize="12"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+
+                    <!-- OUTPUT PORT (bên phải, nhô ra ngoài) -->
+                    <Node:Node_PortView 
+                        Grid.Column="2"
+                        x:Name="OutputPort"
+                        Margin="-10 0 -10 0"
+                        IsConnected="{Binding PortModel.IsConnected}">
+
+                        <Node:Node_PortView.DataContext>
+                            <NodeViewModel:Node_PortViewModel></NodeViewModel:Node_PortViewModel>
+                        </Node:Node_PortView.DataContext>
+                        
+                    </Node:Node_PortView>
+                </Grid>
+                
+            </StackPanel>
+        </Border>
+            
+    </Grid>
+    
+</Node:NodeControl>
