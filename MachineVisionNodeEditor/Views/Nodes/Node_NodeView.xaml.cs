@@ -47,18 +47,24 @@ namespace MachineVisionNodeEditor.Views.Nodes
             if (DataContext is Node_NodeViewModel vm)
             {
                 Node_NodeViewModel = vm;
-                Node_NodeViewModel.NodeModel.InputPorts.Add(new PortModel() { Type = PortType.Input, Owner = Node_NodeViewModel.NodeModel });
-                InputPort.DataContext = Node_NodeViewModel.NodeModel.InputPorts[0];
+                var inputPort = new Node_PortViewModel();
+                inputPort.PortModel.Type = PortType.Input;
+                inputPort.PortModel.Owner = Node_NodeViewModel.NodeModel;
+                Node_NodeViewModel.NodeModel.InputPorts.Add(inputPort);
+                InputPortsControl.DataContext = Node_NodeViewModel.NodeModel.InputPorts[0];
 
-                Node_NodeViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = Node_NodeViewModel.NodeModel });
-                OutputPort.DataContext = Node_NodeViewModel.NodeModel.OutputPorts[0];
+                var outputPort = new Node_PortViewModel();
+                outputPort.PortModel.Type = PortType.Input;
+                outputPort.PortModel.Owner = Node_NodeViewModel.NodeModel;
+                Node_NodeViewModel.NodeModel.OutputPorts.Add(outputPort);
+                OutputPortsControl.DataContext = Node_NodeViewModel.NodeModel.OutputPorts[0];
             }
         }
 
         // ── Helpers ──────────────────────────────────────────────────────
         /// <summary>Trả về FrameworkElement của port để lấy vị trí.</summary>
         public FrameworkElement? GetPortElement(PortModel port)
-            => port.Type == PortType.Input ? InputPort : OutputPort;
+            => port.Type == PortType.Input ? InputPortsControl : OutputPortsControl;
 
         //public static void ClearDraggingPort() => DraggingPort = null;
 

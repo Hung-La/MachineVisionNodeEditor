@@ -10,17 +10,20 @@ namespace MachineVisionNodeEditor.ViewModels.NodeViewModels
 {
     public abstract class NodeControl_NodeViewModel : BaseViewModel, INodeViewModel
     {
-        private NodeModel _nodeModel;
+        private NodeModel _nodeModel = new NodeModel();
 
-        public NodeModel NodeModel { get => _nodeModel; set { _nodeModel = value; OnPropertyChanged(); } }
+        public NodeModel NodeModel { get => _nodeModel; set { _nodeModel = value; OnPropertyChanged(nameof(_nodeModel)); } }
 
         public NodeControl_NodeViewModel(NodeModel nodeModel)
         {
             NodeModel = nodeModel;
         }
 
-        public NodeControl_NodeViewModel() { }
+        public NodeControl_NodeViewModel()
+        {
 
-        
+        }
+
+
     }
 }

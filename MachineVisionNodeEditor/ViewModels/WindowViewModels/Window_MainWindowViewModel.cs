@@ -1,6 +1,11 @@
-﻿using MachineVisionNodeEditor.Models.NodeModels;
-using MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeViewModels;
+﻿using MachineVisionNodeEditor.Builders;
+using MachineVisionNodeEditor.Commands;
+using MachineVisionNodeEditor.Factories;
+using MachineVisionNodeEditor.Models.NodeModels;
+using MachineVisionNodeEditor.Models.NodeModels.ImageImport_NodeModels;
 using MachineVisionNodeEditor.ViewModels.NodeViewModels;
+using MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeViewModels;
+using MachineVisionNodeEditor.Views.Nodes;
 using MachineVisionNodeEditor.Views.Windows;
 using System;
 using System.Collections.Generic;
@@ -12,9 +17,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Navigation;
-using MachineVisionNodeEditor.Models.NodeModels.ImageImport_NodeModels;
-using MachineVisionNodeEditor.Views.Nodes;
-using MachineVisionNodeEditor.Commands;
+using static OpenCvSharp.ML.DTrees;
 
 namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
 {
@@ -67,6 +70,11 @@ namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
             //Nodes.Add(new Node_NodeViewModel(node1));
             //Nodes.Add(new Node_NodeViewModel(node2));
             //Nodes.Add(new Node_NodeViewModel(node3));
+
+            var nodeA = new NodeBuilder().SetNodeType(NodeType.Node)
+                .SetCoordinate(100,200)
+                .Build();
+            Nodes.Add(NodeFactory.Create(nodeA));
             #endregion 
 
             // ===== Bắt đầu kéo từ port =====
@@ -139,12 +147,22 @@ namespace MachineVisionNodeEditor.ViewModels.WindowViewModels
             return vm;
         }
 
+        public void AddNode(NodeType type)
+        {
+            Nodes.Add(NodeFactory.Create(type));
+        }
+
+        public void AddNode(NodeModel nodeModel)
+        {
+            Nodes.Add(NodeFactory.Create(nodeModel));
+        }
         public void AddNewNode()
         {
             var r = new Random();
             var node = new NodeModel("Node", r.Next(50, 400), r.Next(50, 300));
             Nodes.Add(new Node_NodeViewModel(node));
         }
+
 
         public void AddNewImageImportNode()
         {

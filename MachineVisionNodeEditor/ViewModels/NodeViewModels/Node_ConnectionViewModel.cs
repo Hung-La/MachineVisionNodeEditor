@@ -11,7 +11,7 @@ namespace MachineVisionNodeEditor.ViewModels.NodeViewModels
     {
         private ConnectionModel _connectionModel;
 
-        public ConnectionModel ConnectionModel { get => _connectionModel; set { _connectionModel = value; OnPropertyChanged(); } }
+        public ConnectionModel ConnectionModel { get => _connectionModel; set { _connectionModel = value; OnPropertyChanged(nameof(_connectionModel)); } }
 
         public Node_ConnectionViewModel (ConnectionModel connectionModel)
         {

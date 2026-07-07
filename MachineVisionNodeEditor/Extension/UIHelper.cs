@@ -71,10 +71,11 @@ namespace MachineVisionNodeEditor.Extension
                 if (container == null) continue;
 
                 var nodeView = FindVisualChild<Node_NodeView>(container);
-                if (nodeView?.DataContext is Node_NodeViewModel nodeViewModel && nodeViewModel.NodeModel == port.Owner)
+                if (nodeView?.DataContext is NodeControl_NodeViewModel nodeViewModel && nodeViewModel.NodeModel == port.Owner)
                 {
                     return nodeView.GetPortElement(port);
                 }
+
             }
 
             return null;

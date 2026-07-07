@@ -38,6 +38,7 @@ namespace MachineVisionNodeEditor.ViewModels.UserControlViewModels
                 {
                     w.Close();
                 }
+
             });
 
             MaximizeWindowCommand = new RelayCommand<UserControl>((p) => { return p == null ? false : true; }, (p) =>

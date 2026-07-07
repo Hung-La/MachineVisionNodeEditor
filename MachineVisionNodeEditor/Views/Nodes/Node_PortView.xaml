@@ -8,9 +8,9 @@
              mc:Ignorable="d" 
              Height="20" Width="20">
 
-    <UserControl.DataContext>
+    <!--<UserControl.DataContext>
         <NodeViewModel:Node_PortViewModel></NodeViewModel:Node_PortViewModel>
-    </UserControl.DataContext>
+    </UserControl.DataContext>-->
     
     <UserControl.Resources>
         <Style x:Key="RoundCorner" TargetType="Button">

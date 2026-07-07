@@ -1,4 +1,5 @@
 ﻿using MachineVisionNodeEditor.ViewModels;
+using MachineVisionNodeEditor.ViewModels.NodeViewModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,12 +7,19 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace MachineVisionNodeEditor.Models.NodeModels
 {
+    public enum NodeType
+    {
+        Node,
+        ImageImport
+    }
     public class NodeModel : BaseViewModel
     {
         private string _title;
+        private string _description;
         private double _x, _y;
 
         public string Title
@@ -20,20 +28,34 @@ namespace MachineVisionNodeEditor.Models.NodeModels
             set { _title = value; }
         }
 
+        public string Description 
+        { 
+            get => _description; 
+            set => _description = value; 
+        }
+
         public double X
         {
             get => _x;
-            set { _x = value; OnPropertyChanged(); }
+            set { _x = value; OnPropertyChanged(nameof(X)); }
         }
 
         public double Y
         {
             get => _y;
-            set { _y = value; OnPropertyChanged(); }
+            set { _y = value; OnPropertyChanged(nameof(Y)); }
         }
 
-        public ObservableCollection<PortModel> InputPorts { get; set; } = new ObservableCollection<PortModel>() { };//Type = PortType.Input };
-        public ObservableCollection<PortModel> OutputPorts { get; set; } = new ObservableCollection<PortModel>() { };//Type = PortType.Output };
+        public ObservableCollection<Node_PortViewModel> InputPorts { get; set; } = new ObservableCollection<Node_PortViewModel>() { };//Type = PortType.Input };
+        public ObservableCollection<Node_PortViewModel> OutputPorts { get; set; } = new ObservableCollection<Node_PortViewModel>() { };//Type = PortType.Output };
+
+        public FrameworkElement View
+        {
+            get;
+            set;
+        }
+
+        public NodeType Type { get; set; }
 
         public NodeModel(string title, double x, double y)
         {
@@ -42,17 +64,17 @@ namespace MachineVisionNodeEditor.Models.NodeModels
             Y = y;
             if (InputPorts.Count != 0)
             {
-                foreach (PortModel port in InputPorts)
+                foreach (Node_PortViewModel port in InputPorts)
                 {
-                    port.Owner = this;
+                    port.PortModel.Owner = this;
                 }
             }
 
             if (OutputPorts.Count != 0)
             {
-                foreach (PortModel port in OutputPorts)
+                foreach (Node_PortViewModel port in OutputPorts)
                 {
-                    port.Owner = this;
+                    port.PortModel.Owner = this;
                 }
             }
             //InputPort.Owner = this;
@@ -63,5 +85,43 @@ namespace MachineVisionNodeEditor.Models.NodeModels
         }
 
         public NodeModel() { }
+
+        public Node_PortViewModel AddPort(PortType type)
+        {
+            var port = new Node_PortViewModel();
+            port.PortModel.Type = type;
+            port.PortModel.Owner = this;
+            //port.PortModel.Connected += OnPortConnected;
+
+            if (type == PortType.Input)
+            {
+                InputPorts.Add(port);
+            }
+            else if ( type == PortType.Output)
+            {
+                OutputPorts.Add(port);
+            }
+
+            return port;
+        }
+
+        private void OnPortConnected(PortModel connectedPort)
+        {
+            // Ensure there is always at least one free (unconnected) port.
+            if (connectedPort.Type == PortType.Input)
+            {
+                bool hasFree = false;
+                foreach (var p in InputPorts)
+                    if (!p.PortModel.IsConnected) { hasFree = true; break; }
+                if (!hasFree) AddPort(PortType.Input);
+            }
+            else
+            {
+                bool hasFree = false;
+                foreach (var p in OutputPorts)
+                    if (!p.PortModel.IsConnected) { hasFree = true; break; }
+                if (!hasFree) AddPort(PortType.Output);
+            }
+        }
     }
 }

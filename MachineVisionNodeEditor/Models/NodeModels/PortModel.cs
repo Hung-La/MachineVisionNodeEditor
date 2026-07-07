@@ -18,13 +18,29 @@ namespace MachineVisionNodeEditor.Models.NodeModels
     {
         public PortType Type { get; set; }
 
-        public bool IsConnected { get; set; } = false;
+        public event Action<PortModel>? Connected;
+
+        private bool _isConnected;
+        public bool IsConnected
+        {
+            get => _isConnected;
+            set
+            {
+                if (SetField(ref _isConnected, value) && value)
+                    Connected?.Invoke(this);
+            }
+        }
 
         private NodeModel owner;
         public NodeModel Owner { get => owner; set { owner = value; OnPropertyChanged(); } }
 
         private Point position;
         public Point Position { get => position; set { position = value; OnPropertyChanged(); } }
+
+        public FrameworkElement View
+        {
+            get;
+            set;
+        }
     }
 }
- 

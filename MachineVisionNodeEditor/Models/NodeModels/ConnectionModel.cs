@@ -18,29 +18,31 @@ namespace MachineVisionNodeEditor.Models.NodeModels
         public Point Start
         {
             get => _start;
-            set { _start = value; OnPropertyChanged(); } 
+            set { _start = value; OnPropertyChanged(nameof(Start)); } 
         }
 
         public Point End
         {
             get => _end;
-            set { _end = value; OnPropertyChanged(); }
+            set { _end = value; OnPropertyChanged(nameof(End)); }
         }
 
         public Point Control1
         {
             get => _control1;
-            set { _control1 = value; OnPropertyChanged(); OnPropertyChanged(nameof(PathData)); }
+            set { _control1 = value; OnPropertyChanged(nameof(Control1)); OnPropertyChanged(nameof(PathData)); }
         }
 
         public Point Control2
         {
             get => _control2;
-            set { _control2 = value; OnPropertyChanged(); OnPropertyChanged(nameof(PathData)); }
+            set { _control2 = value; OnPropertyChanged(nameof(Control2)); OnPropertyChanged(nameof(PathData)); }
         }
 
-        public PortModel FromPort { get; set; }
-        public PortModel ToPort { get; set; }
+        public PortModel? FromPort { get; set; }
+        public PortModel? ToPort { get; set; }
+
+        public FrameworkElement? View {  get; set; }
 
         public void UpdateControls()
         {

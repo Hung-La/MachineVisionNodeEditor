@@ -75,24 +75,26 @@
 
                     <!-- Label -->
                     <TextBlock Grid.Column="1"
-                       Text="● Image Import ●"
+                       Text="{Binding NodeModel.Description}"
                        Foreground="#546E7A"
                        FontSize="12"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
 
-                    <!-- OUTPUT PORT (bên phải, nhô ra ngoài) -->
-                    <Node:Node_PortView 
-                        Grid.Column="2"
-                        x:Name="OutputPort"
-                        Margin="-10 0 -10 0"
-                        IsConnected="{Binding PortModel.IsConnected}">
+                    <!-- OUTPUT PORTS (right, dynamic) -->
+                    <ItemsControl Grid.Column="2"
+                          x:Name="OutputPortsControl"
+                          ItemsSource="{Binding NodeModel.OutputPorts}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Node:Node_PortView
+                                    Margin="0,2,-10,2"
+                                    PortMouseUp="Port_PortMouseUp"
+                                    ToolTip="Output Port"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
 
-                        <Node:Node_PortView.DataContext>
-                            <NodeViewModel:Node_PortViewModel></NodeViewModel:Node_PortViewModel>
-                        </Node:Node_PortView.DataContext>
-                        
-                    </Node:Node_PortView>
                 </Grid>
                 
             </StackPanel>

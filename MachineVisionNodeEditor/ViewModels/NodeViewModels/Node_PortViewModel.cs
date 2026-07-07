@@ -11,6 +11,6 @@ namespace MachineVisionNodeEditor.ViewModels.NodeViewModels
     {
         private PortModel _portModel = new PortModel();
 
-        public PortModel PortModel { get => _portModel; set { _portModel = value; OnPropertyChanged(); } } 
+        public PortModel PortModel { get => _portModel; set { _portModel = value; OnPropertyChanged(nameof(_portModel)); } } 
     }
 }

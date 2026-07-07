@@ -1,4 +1,5 @@
-﻿using MachineVisionNodeEditor.Extension;
+﻿using MachineVisionNodeEditor.Builders;
+using MachineVisionNodeEditor.Extension;
 using MachineVisionNodeEditor.Models.NodeModels;
 using MachineVisionNodeEditor.ViewModels.NodeViewModels;
 using MachineVisionNodeEditor.ViewModels.WindowViewModels;
@@ -56,9 +57,10 @@ namespace MachineVisionNodeEditor.Views.Windows
 
             if (e.LeftButton != MouseButtonState.Pressed) return;
 
-            if (Node_NodeView.DraggingPort == null) return;
+            if (NodeControl.DraggingPort == null) return;
 
-            var startEl = UIHelper.FindPortElement(Node_NodeView.DraggingPort);
+            //var startEl = UIHelper.FindPortElement(NodeControl.DraggingPort);
+            var startEl = NodeControl.DraggingPort.View;
             if (startEl == null) return;
 
             Point start = UIHelper.GetCenter(startEl, MainCanvas);
@@ -70,7 +72,7 @@ namespace MachineVisionNodeEditor.Views.Windows
         }
         private void MainCanvas_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            var dragging = Node_NodeView.DraggingPort;
+            var dragging = NodeControl.DraggingPort;
             if (dragging == null) return;
 
             try
@@ -94,10 +96,8 @@ namespace MachineVisionNodeEditor.Views.Windows
             }
             finally
             {
-                Node_NodeView.ClearDraggingPort();
+                NodeControl.ClearDraggingPort();
                 PreviewPath.Data = null;
-
-
                 e.Handled = true;
             }
         }
@@ -115,12 +115,22 @@ namespace MachineVisionNodeEditor.Views.Windows
 
         private void RibbonButton_ImageImport_Click(object sender, RoutedEventArgs e)
         {
-            Window_MainWindowViewModel.AddNewImageImportNode();
+            var random = new Random();
+            var nodeModel = new NodeBuilder()
+                .SetNodeType(NodeType.ImageImport)
+                .SetCoordinate(random.Next(100, 200), random.Next(100, 200))
+                .Build();
+            Window_MainWindowViewModel.AddNode(nodeModel);
         }
 
         private void RibbonButton_Test_Click(object sender, RoutedEventArgs e)
         {
-            Window_MainWindowViewModel.AddNewNode();
+            var random = new Random();
+            var nodeModel = new NodeBuilder()
+                .SetNodeType(NodeType.Node)
+                .SetCoordinate(random.Next(300, 400), random.Next(50, 200))
+                .Build();
+            Window_MainWindowViewModel.AddNode(nodeModel);
         }
     }
 }

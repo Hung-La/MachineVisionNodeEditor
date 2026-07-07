@@ -79,44 +79,42 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
 
-                    <StackPanel
-                        x:Name="StackPanel_InputPorts"
-                        Grid.Column="0"
-                        Margin="-10 0 0 0">
-                        <!-- INPUT PORT (bên trái, nhô ra ngoài) -->
-                        <local:Node_PortView
-                            x:Name="InputPort"
-                            DataContext="{Binding DataContext.NodeModel.InputPorts[0], UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
-                            IsConnected="{Binding PortModel.IsConnected}"
-                            PortMouseUp="Port_PortMouseUp"
-                            ToolTip="Input Port">
-                        </local:Node_PortView>
-                    </StackPanel>
+                    <!-- INPUT PORTS (left, dynamic) -->
+                    <ItemsControl Grid.Column="0"
+                                  x:Name="InputPortsControl"
+                                  ItemsSource="{Binding NodeModel.InputPorts}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <!-- DataContext here IS the PortModel -->
+                                <local:Node_PortView
+                                Margin="-10,2,0,2"
+                                PortMouseUp="Port_PortMouseUp"
+                                ToolTip="Input Port"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
 
                     <!-- Label -->
                     <TextBlock Grid.Column="1"
-                       Text="●  ●"
-                       Foreground="#546E7A"
-                       FontSize="11"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
+                           Text="{Binding NodeModel.Description}"
+                           Foreground="#546E7A"
+                           FontSize="11"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
 
-                    <StackPanel
-                        x:Name="StackPanel_OutputPorts"
-                        Grid.Column="2"
-                        Margin="0 0 -10 0">
-                        <!-- OUTPUT PORT (bên phải, nhô ra ngoài) -->
-                        <local:Node_PortView
-                            Grid.Column="2"
-                            x:Name="OutputPort"
-                            DataContext="{Binding DataContext.NodeModel.OutputPorts[0], UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
-                            IsConnected="{Binding PortModel.IsConnected}"
-                            PortMouseUp="Port_PortMouseUp"   
-                            ToolTip="Output Port">
-                        </local:Node_PortView>
-                    </StackPanel>
-
-
+                    <!-- OUTPUT PORTS (right, dynamic) -->
+                    <ItemsControl Grid.Column="2"
+                                  x:Name="OutputPortsControl"
+                                  ItemsSource="{Binding NodeModel.OutputPorts}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <local:Node_PortView
+                                    Margin="0,2,-10,2"
+                                    PortMouseUp="Port_PortMouseUp"
+                                    ToolTip="Output Port"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </Grid>
 
             </StackPanel>

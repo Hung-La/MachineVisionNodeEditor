@@ -19,10 +19,21 @@ namespace MachineVisionNodeEditor.ViewModels.NodeViewModels.ImageImport_NodeView
 
         //public NodeModel NodeModel { get => nodeModel; set { nodeModel = value; OnPropertyChanged(); } }
 
-        public ImageImport_NodeViewModel (ImageImport_NodeModel nodeModel)
+        public ImageImport_NodeViewModel (NodeModel nodeModel) : base (nodeModel)
         {
-            NodeModel = nodeModel;
+            NodeModel.Title = "Image Import";
+            EnsureInitialPorts();
         }
-        public ImageImport_NodeViewModel (){}
+        public ImageImport_NodeViewModel ()
+        {
+            NodeModel.Title = "Image Import";
+            EnsureInitialPorts();
+
+        }
+
+        private void EnsureInitialPorts()
+        {
+            if (NodeModel.OutputPorts.Count == 0) NodeModel.AddPort(PortType.Output);
+        }
     }
 }

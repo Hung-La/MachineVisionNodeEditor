@@ -72,13 +72,13 @@ namespace MachineVisionNodeEditor.Views.Nodes
         public Node_PortView()
         {
             InitializeComponent();
-            Node_PortViewModel = this.DataContext as Node_PortViewModel;
         }
 
         private void Button_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             // Lấy PortModel từ Tag của UserControl (không phải Tag của Button)
-            var port = this.DataContext as PortModel;
+            var portViewModel = this.DataContext as Node_PortViewModel;
+            var port = portViewModel.PortModel;
             if (port == null) return;
 
             // Tìm Canvas cha để tính toạ độ tuyệt đối
@@ -92,15 +92,17 @@ namespace MachineVisionNodeEditor.Views.Nodes
                 RoutedEvent = PortMouseDownEvent
             });
 
-            Node_NodeView.DraggingPort = port;
-            Node_NodeView.DraggingPort.Position = port.Position;
+            NodeControl.DraggingPort = port;
+            NodeControl.DraggingPort.Position = port.Position;
+            port.View = this;
             e.Handled = true;
         }
 
         private void Button_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             // Lấy PortModel từ Tag của UserControl (không phải Tag của Button)
-            var targetPort = this.DataContext as PortModel;
+            var targetPortViewModel = this.DataContext as Node_PortViewModel;
+            var targetPort = targetPortViewModel.PortModel;
             if (targetPort == null) return;
 
             // Tìm Canvas cha để tính toạ độ tuyệt đối
@@ -109,7 +111,7 @@ namespace MachineVisionNodeEditor.Views.Nodes
                 targetPort.Position = this.TransformToAncestor(canvas)
                                     .Transform(new Point(ActualWidth / 2, ActualHeight / 2));
 
-            var startPort = Node_NodeView.DraggingPort;
+            var startPort = NodeControl.DraggingPort;
 
 
             if (startPort != null)
@@ -124,20 +126,6 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
                         startPort.IsConnected = true;
                         targetPort.IsConnected = true;
-
-                        #region Add new port when previous port was connected
-                        //Node_NodeView view = UIHelper.FindNodeElement<Node_NodeView>(this);
-                        //targetPort.Owner.InputPorts.Add(new PortModel() { Owner = targetPort.Owner, Position = new Point(startPort.Position.X, startPort.Position.Y + 20), Type = PortType.Output });
-
-                        //if (view != null && view.DataContext is Node_NodeViewModel nodeViewModel)
-                        //{
-                        //    Node_PortView portView = new Node_PortView() { Margin = new Thickness(0, 5, 0, 0) };
-                        //    Node_PortViewModel portViewModel = portView.DataContext as Node_PortViewModel;
-                        //    portViewModel.PortModel = startPort.Owner.OutputPorts.Last();
-
-                        //    view.StackPanel_InputPorts.Children.Add(portView);
-                        //}
-                        #endregion
                     }
 
                 }
@@ -153,5 +141,5 @@ namespace MachineVisionNodeEditor.Views.Nodes
             e.Handled = true;
         }
     }
-    
+
 }

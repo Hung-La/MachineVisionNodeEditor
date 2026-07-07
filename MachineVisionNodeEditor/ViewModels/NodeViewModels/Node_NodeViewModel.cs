@@ -16,11 +16,24 @@ namespace MachineVisionNodeEditor.ViewModels.NodeViewModels
 
         public Node_NodeViewModel(NodeModel nodeModel)
         {
+            nodeModel.Title = "Test Node";
             NodeModel = nodeModel;
+            EnsureInitialPorts();
+
         }
 
-        public Node_NodeViewModel() { }
+        public Node_NodeViewModel() 
+        {
+            NodeModel.Title = "Test Node";
+            EnsureInitialPorts();
 
-     
+        }
+
+        private void EnsureInitialPorts()
+        {
+            if (NodeModel.InputPorts.Count == 0) NodeModel.AddPort(PortType.Input);
+            if (NodeModel.OutputPorts.Count == 0) NodeModel.AddPort(PortType.Output);
+        }
+
     }
 }

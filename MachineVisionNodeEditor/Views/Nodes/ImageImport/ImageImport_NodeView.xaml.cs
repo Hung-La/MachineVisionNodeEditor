@@ -36,8 +36,12 @@ namespace MachineVisionNodeEditor.Views.Nodes.ImageImport
             if (DataContext is NodeControl_NodeViewModel vm)    
             {
                 ImageImport_NodeViewModel = (ImageImport_NodeViewModel)vm;
-                ImageImport_NodeViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = ImageImport_NodeViewModel.NodeModel });
-                OutputPort.DataContext = ImageImport_NodeViewModel.NodeModel.OutputPorts[0];
+
+                var port = new Node_PortViewModel();
+                port.PortModel.Type = PortType.Output; 
+                port.PortModel.Owner = ImageImport_NodeViewModel.NodeModel;
+                ImageImport_NodeViewModel.NodeModel.OutputPorts.Add(port);
+                OutputPortsControl.DataContext = ImageImport_NodeViewModel.NodeModel.OutputPorts[0];
             }
         }
 

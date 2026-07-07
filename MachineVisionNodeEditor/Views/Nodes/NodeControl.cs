@@ -16,7 +16,7 @@ using System.Windows.Input;
 
 namespace MachineVisionNodeEditor.Views.Nodes
 {
-    public class NodeControl : UserControl
+    public abstract class NodeControl : UserControl
     {
         public static PortModel? DraggingPort { get; set; }
         public NodeControl_NodeViewModel? NodeControl_NodeViewModel { get; set; }
@@ -27,38 +27,14 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
         public NodeControl()
         {
-
+            
         }
 
         protected void NodeControl_Loaded(object sender, RoutedEventArgs e)
         {
             if (this.DataContext is NodeControl_NodeViewModel viewModel)
             {
-                NodeControl_NodeViewModel = viewModel;
-                if (viewModel is Node_NodeViewModel nodeViewModel)
-                {
-                    var nodeView = UIHelper.FindView<Node_NodeView>(viewModel);
-                    nodeViewModel.NodeModel.InputPorts.Add(new PortModel() { Type = PortType.Input, Owner = nodeViewModel.NodeModel });
-                    if (nodeView != null && nodeView.DataContext == viewModel)
-                    {
-                        nodeView.InputPort.DataContext = viewModel.NodeModel.InputPorts[0];
-                    }
-
-                    nodeViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = nodeViewModel.NodeModel });
-                    if (nodeView != null && nodeView.DataContext == viewModel)
-                    {
-                        nodeView.OutputPort.DataContext = viewModel.NodeModel.OutputPorts[0];
-                    }
-                }
-                else if (viewModel is ImageImport_NodeViewModel imageImportViewModel)
-                {
-                    var nodeView = UIHelper.FindView<ImageImport_NodeView>(viewModel);
-                    imageImportViewModel.NodeModel.OutputPorts.Add(new PortModel() { Type = PortType.Output, Owner = imageImportViewModel.NodeModel });
-                    if (nodeView != null && nodeView.DataContext == viewModel)
-                    {
-                        nodeView.OutputPort.DataContext = viewModel.NodeModel.OutputPorts[0];
-                    }
-                }
+                viewModel.NodeModel.View = this;
             }
         }
 
@@ -118,8 +94,8 @@ namespace MachineVisionNodeEditor.Views.Nodes
                 m.NodeModel.X += delta.X;
                 m.NodeModel.Y += delta.Y;
 
-                m.NodeModel.OutputPorts.Select(p => p.Position += delta).ToList();
-                m.NodeModel.InputPorts.Select(p => p.Position += delta).ToList();
+                m.NodeModel.OutputPorts.Select(p => p.PortModel.Position += delta).ToList();
+                m.NodeModel.InputPorts.Select(p => p.PortModel.Position += delta).ToList();
 
                 //foreach (var item in m.NodeModel.OutputPorts)
                 //{
@@ -133,13 +109,13 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
                 if (m.NodeModel.OutputPorts.Count != 0)
                 {
-                    var outputConnections = UIHelper.FindConnectionElement(m.NodeModel.OutputPorts[0]);
+                    var outputConnections = UIHelper.FindConnectionElement(m.NodeModel.OutputPorts[0].PortModel);
                     if (outputConnections != null)
                         foreach (var item in outputConnections)
                         {
                             if (item.DataContext is Node_ConnectionViewModel vm)
                             {
-                                vm.ConnectionModel.Start = m.NodeModel.OutputPorts[0].Position;
+                                vm.ConnectionModel.Start = m.NodeModel.OutputPorts[0].PortModel.Position;
                                 vm.ConnectionModel.UpdateControls();
                             }
                         }
@@ -148,18 +124,17 @@ namespace MachineVisionNodeEditor.Views.Nodes
 
                 if (m.NodeModel.InputPorts.Count != 0)
                 {
-                    var inputConnections = UIHelper.FindConnectionElement(m.NodeModel.InputPorts[0]);
+                    var inputConnections = UIHelper.FindConnectionElement(m.NodeModel.InputPorts[0].PortModel);
                     if (inputConnections != null)
                         foreach (var item in inputConnections)
                         {
                             if (item.DataContext is Node_ConnectionViewModel vm)
                             {
-                                vm.ConnectionModel.End = m.NodeModel.InputPorts[0].Position;
+                                vm.ConnectionModel.End = m.NodeModel.InputPorts[0].PortModel.Position;
                                 vm.ConnectionModel.UpdateControls();
                             }
                         }
                 }
-
 
             }
         }
